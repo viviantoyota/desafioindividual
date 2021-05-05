@@ -1,0 +1,13 @@
+<body>
+
+    <h1>${Resource.msg('email.msg.new.registration.dear', 'registration', null)}&nbsp;${pdict.fullName},</h1>
+
+    <p>Você agora receberá as nossas melhores e mais recentes promoções!</p>
+    
+    <p>Mas não deixe de visitar a nossa loja</p>
+
+    <p><a href="${pdict.url}">${pdict.url}</a></p>
+
+    <p>${Resource.msg('email.msg.new.registration.body2','registration',null)}</p>
+
+</body>
